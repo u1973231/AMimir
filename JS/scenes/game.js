@@ -48,7 +48,7 @@ class GameScene extends Phaser.Scene {
         this.music
         this.dejarPez
         this.aguaRio
-        this.mordiscoPez
+        //this.mordiscoPez
         this.mordiscoPirana
         this.rataHuye
         this.rataViene
@@ -58,7 +58,7 @@ class GameScene extends Phaser.Scene {
         this.music;
         this.dejarPez;
         this.aguaRio;
-        this.mordiscoPez;
+       // this.mordiscoPez;
         this.mordiscoPirana;
         this.rataHuye;
         this.rataViene;
@@ -101,7 +101,7 @@ class GameScene extends Phaser.Scene {
         this.load.audio('musica', ['../../ASSETS/sounds/StardewValleyOSTSpring.mp3']);
         this.load.audio('cesta', ['../../ASSETS/sounds/dejarPezCesta.wav']);
         this.load.audio('aguaRio', ['../../ASSETS/sounds/aguaRio.wav']);
-        this.load.audio('mordiscoPez', ['../../ASSETS/sounds/mordiscoPez.wav']);
+        //this.load.audio('mordiscoPez', ['../../ASSETS/sounds/mordiscoPez.wav']);
         this.load.audio('mordiscoPirana', ['../../ASSETS/sounds/mordiscoPirana.wav']);
         this.load.audio('rataHuye', ['../../ASSETS/sounds/rataHuye.mp3']);
         this.load.audio('rataViene', ['../../ASSETS/sounds/RataViene.mp3']);
@@ -216,7 +216,7 @@ class GameScene extends Phaser.Scene {
             this.dejarPez = this.sound.add('cesta');
             this.rataHuye = this.sound.add('rataHuye');
             this.rataViene = this.sound.add('rataViene');
-            this.mordiscoPez = this.sound.add('mordiscoPez');
+           // this.mordiscoPez = this.sound.add('mordiscoPez');
             this.mordiscoPirana = this.sound.add('mordiscoPirana');
             this.salmonVolando = this.sound.add('salmonVolando');
             this.music = this.sound.add('musica');
@@ -257,7 +257,7 @@ class GameScene extends Phaser.Scene {
                         this.music.volume = this.musicVolumen * this.volumenPrincipal;
                         this.agua.volume = this.aguaVolumen * this.volumenPrincipal;
                         this.dejarPez.volume = this.volumenPrincipal;
-                        this.mordiscoPez.volume = this.volumenPrincipal;
+                        //this.mordiscoPez.volume = this.volumenPrincipal;
                         this.mordiscoPirana.volume = this.volumenPrincipal;
                         this.rataHuye.volume = this.volumenPrincipal;
                         this.rataViene.volume = this.volumenPrincipal;
